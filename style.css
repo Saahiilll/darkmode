@@ -1,0 +1,157 @@
+
+body{
+    margin: auto;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+/* dark mode */
+.mydark{
+    background-color: black;
+}
+
+
+/* header */
+
+#header{
+    height: 60px;
+    
+
+    
+}
+#social{
+float: right;
+margin-right: 1%;
+margin-top: 5px;
+}
+
+#icon{
+    color: orange;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: -1%;
+
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+#dlogo{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5%;
+}
+/* search */
+#search{
+    height: 400px;
+
+    background-image: url('images/food2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 400px;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    background-color: #83f0a0;
+    border-radius: 50%;
+    margin-top: 2%;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 45%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#logo > span {
+    margin-top: 20%;
+    position: absolute;
+    margin-left: 32%;
+}
+#heading{
+    margin-top: 12%;
+    position: absolute;
+    margin-left: 17%;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dropdown{
+    height: 60px;
+    width: 60%;
+    margin-top: 20%;
+    position: absolute;
+    margin-left: 24%;
+
+}
+select{
+    height: 60px;
+    width: 35%;
+    border-radius: 30px;
+}
+.selectrestaurant{
+    width: 50%;
+}
+/* quick search */
+#quicksearch{
+
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    display: inline-block;
+    
+    
+}
+#quickheading{
+    display: block;
+    color:#492e21;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 2%;
+
+}
+#quicksubheading{
+    line-height: 2;
+    color:gray;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2%;
+
+
+}
+.tilecontainer{
+    height: 180px;
+    width: 30%;
+    box-shadow: 10px 20px 15px gray;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+.tilecomponent1{
+    float: left;
+    width: 50%;
+
+}
+.tilecomponent1 > img{
+    height: 180px;
+    width: 100%;
+}
+.tilecomponent2{
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 12%;
+
+}
+.componentheading{
+    color:#492e21;
+    font-size: 25px;
+
+}
+.componentsubheading{
+    color: gray;
+    font-size: 15px;
+
+}
